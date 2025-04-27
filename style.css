@@ -1,66 +1,63 @@
-/* style.css */
-
+/* Genel ayarlar */
 body {
     background-color: #121212;
     color: #e0e0e0;
-    font-family: 'Roboto', 'Segoe UI', sans-serif;
-    line-height: 1.7;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
+/* Header */
 header {
     background-color: #1f1f1f;
-    padding: 30px 20px;
+    padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #333;
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1.2em;
-    margin-top: 10px;
-    color: #aaa;
+    color: #b0b0b0;
 }
 
+/* İçerik Bölümü */
 .content {
+    padding: 30px 20px;
     max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: auto;
+}
+
+.content h2 {
+    color: #ff9800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    margin-top: 30px;
+    color: #ffa726;
 }
 
 .content p {
     margin-bottom: 20px;
-    font-size: 1.1em;
 }
 
-.content h3 {
-    margin-top: 40px;
-    font-size: 1.6em;
-    color: #ff9800;
-}
-
+/* Video */
 video {
-    width: 100%;
-    max-width: 100%;
-    margin: 20px 0;
+    margin-top: 20px;
     border: 2px solid #333;
-    border-radius: 10px;
-    background-color: #000;
+    border-radius: 8px;
 }
 
+/* Footer */
 footer {
     background-color: #1f1f1f;
     text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
+    padding: 10px;
+    font-size: 14px;
     color: #777;
-    border-top: 1px solid #333;
     margin-top: 40px;
 }
-
-/* Yukarı çık butonu (istersen ekleriz) */
